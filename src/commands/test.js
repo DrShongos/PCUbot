@@ -1,5 +1,5 @@
-module.exports = function test(message, passed_arguments) {
-    var content = passed_arguments[0].join(' '); 
+module.exports = function test(message, ...text) {
+    const content = text.join(" "); 
     console.log(content);
     message.channel.send(content);
 }
