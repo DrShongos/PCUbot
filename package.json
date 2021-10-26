@@ -1,0 +1,24 @@
+{
+  "name": "pcubot",
+  "version": "1.0.0",
+  "description": "A discord bot for a discord server",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrShongos/PCUBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrShongos/PCUBot/issues"
+  },
+  "homepage": "https://github.com/DrShongos/PCUBot#readme",
+  "dependencies": {
+    "discord.js": "^13.2.0"
+  }
+}

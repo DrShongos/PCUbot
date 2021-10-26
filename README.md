@@ -1,2 +1,2 @@
 # PCUbot
-shhhhhhh
+A discord bot for a discord server
