@@ -1,5 +1,8 @@
-module.exports = function test(message, ...text) {
+const InvalidUsageError = require("../exceptions/invalid_usage");
+
+module.exports = function test(_, message, ...text) {
     const content = text.join(" "); 
-    console.log(content);
+    if (content == "") throw new InvalidUsageError("Missing or invalid arguments.");
+
     message.channel.send(content);
 }
