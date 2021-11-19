@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/DrShongos/PCUBot#readme",
   "dependencies": {
-    "discord.js": "^13.2.0"
+    "discord.js": "^13.2.0",
+    "mongoose": "^6.0.12"
   }
 }

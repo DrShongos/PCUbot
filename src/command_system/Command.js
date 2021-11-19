@@ -1,3 +1,5 @@
+const { prefix } = require("../../config.json");
+
 module.exports = function Command(command, description) {
     this.name = command.name;
     this.description = description;
@@ -24,6 +26,6 @@ module.exports = function Command(command, description) {
             return arg.replace(arg, `<${arg}>`);  // TODO: Change the way the argument is presented depending on stuff, such as its type or it being optional.
         }).join(`, `).replace("...", "");
 
-        return `!${this.name}: ${args}`;
+        return `${prefix}${this.name}: ${args}`;
     }
 }
