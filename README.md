@@ -1,2 +1,2 @@
 # PCUbot
-A discord bot for a discord server
+Development moved somewhere else
